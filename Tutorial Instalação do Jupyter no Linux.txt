@@ -1,0 +1,27 @@
+Jupyter Notebook conhecido também como IPython Notebooks é  uma aplicação web que ajuda a entender e visualizar dados e resultados de análises.
+
+Primeiro a instalação do pip e o python-dev
+pip - gerenciador de pacotes de Python
+Python-dev - Compila extensões da linguagem C no Jupyter
+
+Primeiro comando:
+$ sudo apt-get -y install python python-pip python-dev
+Comando para saber a instalação corretamente do python-dev:
+$ python -V
+Caso saia a versão, então a instalação foi bem sucedida!
+Agora se o pip está correto utiliza o código:
+$ pip -V
+Se a saída for a versão está correto.
+
+Agora a instalação do Ipython e notebook.
+
+Para a instalação do pacote o seguinte comando: 
+$ sudo apt-get -y install ipython ipython-notebook
+
+Para encerrar a parte da instalação, agora instala o pacote do jupyter com o pip usando o comando:
+$ sudo -H pip install jupyter
+
+Agora vamos iniciar o jupyter notebook com o comando:
+$ jupyter notebook
+
+Pronto agora seu Jupyter Notebook já está funcinando corretamente!!

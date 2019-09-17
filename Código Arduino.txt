@@ -1,0 +1,27 @@
+# include  < LiquidCrystal.h >
+
+// Preparação do Arduino, este código irá rodar uma única vez
+ configuração nula ()
+{
+  // Colocamos o pino 12 do Arduino como OUTPUT (saída)
+  pinMode ( 10 , SAÍDA);
+}
+
+// Este código é chamado automaticamente pelo Arduino, capturado em
+// loop até que seu Arduino seja desligado
+ loop vazio ()
+{
+  // Ativamos o pino 12 (colocando 5v nele)  
+  digitalWrite ( 10 , ALTO);
+
+  // Aguardamos 1 segundo
+  atraso ( 1000 );
+
+  // Desligado ou fechado 12
+  digitalWrite ( 10 , BAIXO);
+
+  // Aguardamos mais um segundo
+  atraso ( 1000 );
+
+  // Este código será repetido eternamente
+}
